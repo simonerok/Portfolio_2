@@ -19,7 +19,34 @@ checkbox.addEventListener("change", () => {
   let theme = localStorage.getItem("data-theme"); // Retrieve saved them from local storage
   if (theme === "dark") {
     changeThemeToLight();
+    swapImage();
   } else {
     changeThemeToDark();
+    swapImage();
   }
+
 });
+
+
+/* SWAP HEADER IMAGE */
+// function swapImage() {
+//   const headerGraphics = document.querySelector(".header_graphics");
+//   const currentImage = headerGraphics.querySelector("object");
+//   const newImageUrl = "graphics/light-image.svg";
+  
+//   currentImage.data = newImageUrl;
+// }
+
+
+function swapImage() {
+  const imgElement = document.querySelector('.header_graphics object');
+  let newImageUrl;
+
+  if (document.documentElement.getAttribute('data-theme') === 'dark') {
+    newImageUrl = 'graphics/light-image.png';
+  } else {
+    newImageUrl = 'graphics/dark-image.svg';
+  }
+
+  imgElement.data = newImageUrl;
+}

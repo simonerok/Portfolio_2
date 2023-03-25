@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Color Assignment</title>
+    <title>Portfolio Assignment</title>
     <!-- Template adapted from https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/ -->
     <!-- Inspired by https://cequence.io/ & https://wage.numbered.studio/ for educational purpose-->
     <!-- Lorem Ipsum from https://loremizr.monkeymatt.com/ -->
@@ -34,95 +34,138 @@
        <!--  <button type="button">Learn More &#x2794;</button> -->
       </ul>
     </nav>
- 
+ <header id="header_portfolio">
+  <div class="portfolio_text">
+    <h1>PORTFOLIO</h1>
+    <p>
+      Welcome to my portfolio. On this page you will find some of the work i have done and some short descriptions about the different projects. 
+    </p>
+   <a href="#scroll_to"> <button class="dark_button" type="button">See projects &#x2794;</button></a>
+   
+  </div>
+  <div class="header_graphics">
+    <object id="header_image" data="graphics/dark-image.svg"></object>
+  </div>
+  
+ </header>
+
     <main>
-    <section class="highlight">
-      <div>
-        <h2>
-          Alias transtulissent sunt te ex foederatos-rerum lius sint
-          sey eorum aut nemo.
-        </h2>
-        <a>Learn More &#x2794;</a>
+    <section class="highlight" id="scroll_to">
+      <h2> Project 13C.01.01</h2>
+      <article class="container">
+      <div class="text">
+      <h3>Choosing a font</h3>
+      <p>Working with fonts a great tool to use is "TypeScale.com". The program allows you to test sizes, font families and pair fonts. Font hiarachy is an important part of a website. We are working with display fonts and paragraph text. Usually iis better to choose a simple dispaly font like a sans serif and not a crazy display font. Choosing fonts its better to go with two types of fonts and work with boldness and making the text itallic etc. </p>
       </div>
+    <div class="img">
+      <img id="fonts" src="mockups/typeScale.png" alt="website typescale">
+      <p class="desc">Image from typeScale.com</p>
+      </div>
+      </article>
     </section>
+
+ 
     <section id="product">
       <article>
         <section class="product_text">
-          <h2>Fremilut nobis me absoluto quam obligatorio</h3>
-          <p>
-            Hic litteras ad cum convallis sinistras, natus contemptor sem
-            symbola consequatur typi accessus praeditus non EA-quaeque
-            paucitate.
-          </p>
-          <a>Request Demo &#x2794;</a>
+          <h2>Mockups</h2>
+          <h3>For 13c.01.01</h3>
+          <p>Here are som mokups showing how the fonts are used and how it looks on an actual website. I have chosen my primary font to be "Bebas Neue". I like it because it is very modern yet it is also good for displaying in a bigger scale. For the paragraph text i have worked with both "montserrat" and "Inter" but i chose to go with "inter" because it gives a very clean look.  </p>
+          </a>
         </section>
       </article>
+
+
       <article>
         <section class="product_graphics">
-          <object data="graphics/website-configuration-setting-svgrepo-com.svg"> </object>
+          <object>  <img src="mockups/mockupFonts_desktop.png" alt="font mockup"></object>
         </section>
+
         <section class="product_text">
           <h3>Usus lius eu mauris reclamente et sed concilia</h3>
           <p>
             Electionem modestius sed faucibus dignus porta recordatio temporis
             veritatis at m solenniter, sunt-massa memorabilem.
           </p>
-          <a href="">Request Demo &#x2794;</a>
+          <a>See project &#x2794;</a>
         </section>
       </article>
       <article>
         <section class="product_graphics">
-          <object data="graphics/website-network-server-svgrepo-com.svg"> </object>
+          <object><img class="wrapper" src="mockups/mockup_fonts2.png" alt="font mockup 2"> </object>
         </section>
         <section class="product_text">
-          <h3>
-            Quod eorum ad laborant ad quae mazim-eorum subsit
-          </h3>
-          <p>
-            Quam usus ullo leo magnatibus gaudere ac voluptatum nostrud rem
-            civitas aut prosunt te vel moreae regulator.
-          </p>
-          <a href="">Request Demo &#x2794;</a>
+          <h3>Fonts and cards</h3>
+  <p>"I created another mockup that showcases fonts used with cards, and it also includes buttons. I took note of the importance of using dark colors for the 'accept button' to make it stand out in the foreground, while lighter colors belong in the background." </p>
+  <a>See project &#x2794;</a>
         </section>
       </article>
     </section>
     
-    <section id="request">
-      <div>
-        <h2>Porro si suscipere unde conformiter numquam & quod eaque?</h2>
-        <p>
-          Quis hic sinistris si eum sinistris scandalum quis lorem providebunt mi
-          laesae consurgunt cum magni hac si commodi unde aspirare uidem.
-        </p>
-        <input type="text"></input><button type="button">Request Demo &#x2794;</button>
-      </div>
-    </section>
+   <section class="request_container"> 
+      
+      <div class="space">
+        <h2>Details</h2>
+        <p>Here are some details involving ui components, animations and dark theme that i have incoorporated in the projects</p>
+  </div>
+        <!--  CARDS -->
+        
+  <article id="cards">
+   <!--  card 1 -->
+     <div class="card"> 
+  <div class="img">
+  <img src="/mockups/uiComponent.png" alt="ui component">
+  <p class="desc">Default look</p>
+  </div>
+  <div class="card_text">
+  <h3>Buttons</h3>
+  <p>I have worked with buttons, a simple look is going to work in most cases because you dont want to confuse the reader. On the contrary buttons are made to draw attention which is why it has to stand out in some way. Thats why colors are important. In my case i have chosen a light color for the button which makes it stand out on the darker background. </p>
+  </div>
+    </div>
+  
+       <!--  card 2 -->
+  <div class="card">
+      <div class="img"> 
+    <img src="/mockups/uiComponent_hover.png" alt="ui component">
+    <p class="desc">hover effect</p>
+    </div>
+    <div class="card_text">
+    <h3>Hover effect</h3>
+    <p>In addition i have worked with hover effects for the buttons. This is a good way to show the reader that they can interact with the button. Ive chosen a simple hover effect that makes an arrow appear on the button when the mouse is hovered.</p>
+  </div>
+  </div>     
+  
+ 
+   
+  </section> 
+
     </main>
     <footer>
       <section>
-        <h2 class="logo">SR</h2>
+        <h3 class="logo">Contact</h3>
         <ul>
-          <li><a href="">sofi78a4@stud.kea.dk</a></li>
-          <li><a href="">+45 21180916</a></li>
+          <li>E-mail: sofi78a4@stud.kea.dk</li>
+          <li>Phone: +45 21180916</li>
         </ul>
       </section>
       <section class="left">
         <div>
           <h3>ABOUT</h3>
           <ul>
-            <li><a href="">Sofia S. Rokkedal</a></li>
-            <li><a href="">Multimediadesigner</a></li>
-            <li><a href="">Copenhagen School of <br> technology and design</a></li>
+            <li>Sofia S. Rokkedal</li>
+            <li>Multimediadesigner</li>
+            <li>Copenhagen School of <br> technology and design</li>
             
           </ul>
         </div>
         <div>
           <h3>SKILLS</h3>
           <ul>
-            <li><a href="">Coding</a></li>
-            <li><a href="">Adobe CC</a></li>
-            <li><a href="">Design</a></li>
-            <li><a href="">UI/UX</a></li>
+            <li>Coding</li>
+            <li>Git</li>
+            <li>Design</li>
+            <li>UI/UX</li>
+            <li>Adobe CC</li>
           </ul>
         </div>
       </section>

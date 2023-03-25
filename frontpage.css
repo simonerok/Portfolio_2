@@ -82,7 +82,7 @@ header img {
   opacity: 95%;
 }
 
-h1 {
+.header_text {
   font-size: 2rem;
   line-height: 2rem;
   color: var(--color-secondary2);
