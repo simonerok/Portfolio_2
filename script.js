@@ -29,14 +29,6 @@ checkbox.addEventListener("change", () => {
 
 
 /* SWAP HEADER IMAGE */
-// function swapImage() {
-//   const headerGraphics = document.querySelector(".header_graphics");
-//   const currentImage = headerGraphics.querySelector("object");
-//   const newImageUrl = "graphics/light-image.svg";
-  
-//   currentImage.data = newImageUrl;
-// }
-
 
 function swapImage() {
   const imgElement = document.querySelector('.header_graphics object');
