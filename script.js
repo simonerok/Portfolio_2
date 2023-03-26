@@ -25,8 +25,8 @@ function init() {
 
 /* DARK MODE/ LIGHT MODE */
 
-/* CHANGE TO DARK */
-let theme = localStorage.getItem("data-theme"); // dette er taget fra html (OVER HEADEREN)
+/* CHANGE TO DARK*/
+let theme = localStorage.getItem("data-theme"); // dette er bestemt i html
 const changeThemeToDark = () => {
   document.documentElement.setAttribute("data-theme", "dark"); // set theme to dark
   localStorage.setItem("data-theme", "dark"); // save theme to local storage
@@ -39,7 +39,7 @@ const changeThemeToLight = () => {
 
 // Get the element based on ID
 const checkbox = document.getElementById("switch");
-// Apply retrived them to the website
+// Apply retrived theme to the website
 checkbox.addEventListener("change", () => {
   let theme = localStorage.getItem("data-theme"); // Retrieve saved them from local storage
   if (theme === "dark") {

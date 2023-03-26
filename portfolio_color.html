@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Assignment</title>
+    <!-- Template adapted from https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/ -->
+    <!-- Inspired by https://cequence.io/ & https://wage.numbered.studio/ for educational purpose-->
+    <!-- Lorem Ipsum from https://loremizr.monkeymatt.com/ -->
+    <!-- SVGs from https://www.svgrepo.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.typekit.net/ayg3dxf.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+        <a class="logo" href="index.html">SR</a>
+        <div>
+          <ul>
+            <li><a href="portfolio.html">Project_01</a></li>
+            <li><a href="portfolio_color.html">Project_02</a></li>
+          </ul>
+        </div>
+        <div class="toggle_container">
+        <input type="checkbox" name="theme" id="switch"/><label for="switch" style="color: whitesmoke">Toggle</label>
+      </div>
+      
+      </ul>
+    </nav>
+ <header id="header_portfolio">
+  <div class="portfolio_text">
+    <h1>PORTFOLIO</h1>
+    <p>
+        Welcome to my portfolio. On this page you will find a project i have made about <span class="bold">using colors and animations</span>
+         and a short description about the project. 
+    </p>
+   <a href="#scroll_to"> <button class="dark_button" type="button">See project &#x2794;</button></a>
+   
+  </div>
+  <div class="header_graphics">
+    <object id="header_image" data="graphics/dark-image.svg"></object>
+  </div>
+  
+ </header>
+
+    <main>
+   
+    <!-- PROJECT 13C.01.02 -->
+
+       <section class="highlight" id="scroll_to">
+        <h2> Project 13C.01.02</h2>
+        <article class="container">
+        <div class="text">
+        <h3>Choosing colors</h3>
+        <p>Working with colors a great tool to use is "Huemint.com". The program allows you to play around with colors. It can generate colorthemes for you and you can see how the colors look on a website. </div>
+      <div class="img">
+        <img id="fonts" src="mockups/colorTheme_huemint.png" alt="website Huemint">
+        <p class="desc">Image from Huemint.com</p>
+        </div>
+        </article>
+      </section>
+  
+   
+      <section id="product">
+        <article>
+          <section class="product_text">
+            <h2>Mockup and styletile</h2>
+            <h3>For 13c.01.02</h3>
+            <p>Here are a mokup showing how the colors are used and how it looks on an actual website, including a styletile.</p>
+            </a>
+          </section>
+        </article>
+  
+        <article>
+          <section class="product_graphics">
+            <object>  <img src="mockups/Color_mockups.png" alt="color mockup"></object>
+          </section>
+  
+          <section class="product_text">
+            <h3>Mockup</h3>
+            <p>
+            In the front section i have worked with a dark blue which turns purple switching to lightmode. The text is lighter almost white to make it easier to read which is important. 
+            </p>
+             <a href="https://rokkedaldesign.dk/kea/3.%20semester%20Frontend/13c_colors-and-animations/index.html">See project &#x2794;</a>
+          </section>
+        </article>
+        <article>
+          <section class="product_graphics" id="styletile">
+            <object><img src="mockups/styletile_colors.png" alt="styletile"> </object>
+          </section>
+          <section class="product_text">
+            <h3>Styletile</h3>
+    <p>I have created a styletyle to see how the colors fit together and what color the text should have. This is a good way to start before making the website because then i have an understanding of which colors fits and it is then easier to implement on the website when coding. </p>
+   
+ <a href="https://rokkedaldesign.dk/kea/3.%20semester%20Frontend/13c_colors-and-animations/index.html">See project &#x2794;</a>
+
+          </section>
+        </article>
+      </section>
+      
+     <section class="request_container"> 
+        
+        <div class="space">
+          <h2>Details</h2>
+          <p>Here are some details involving a dark theme and animations that i have incoorporated in the project</p>
+    </div>
+          <!--  CARDS -->
+          
+    <article id="cards">
+    
+     <!--  card 3 -->
+     <div class="card">
+      <div class="img"> 
+    <img src="mockups/animation.jpg" alt="codesnippet">
+    <p class="desc">Codesnippet for animation</p>
+    </div>
+    <div class="card_text">
+    <h3>Web animations</h3>
+    <p>I have used an animation that fades in the website using opacity that goes from 0 % to 100% which creates this "blink" effect. The animation is made with JavaScript by importing the animation and then use it and in CSS by using keyframes. </p>
+  </div>
+  <div class="card_btn">
+    <a href="https://rokkedaldesign.dk/kea/3.%20semester%20Frontend/13c_colors-and-animations/index.html"> <button class="light_button">See project</button></a>
+    </div>
+  </div>   
+
+     <!--  card 4 -->
+     <div class="card">
+      <div class="img"> 
+    <img src="mockups/darkmode_detail.jpg" alt="codesnippet">
+    <p class="desc">Codesnippet for dark theme</p>
+    </div>
+    <div class="card_text">
+    <h3>Dark mode</h3>
+    <p> I have created a button that can switch between the dark mode and light mode. One important thing I have learned while creating the dark mode is that it doesn't necessarily have to be a transition from dark to light or from black to white. </p>
+  </div>
+  <div class="card_btn">
+    <a href="https://rokkedaldesign.dk/kea/3.%20semester%20Frontend/13c_colors-and-animations/index.html"> <button class="light_button">See project</button></a>
+    </div>
+  </div>   
+</article>
+
+    </section> 
+  
+        <section id="summary">
+      <div>
+        <h2>Summary: What have i learned from this theme</h2>
+        <p>
+          To summarize, I have learned a lot about design, including a good understanding of the use of fonts and colors. I have learned to implement animations, better hover effects, and create a "dark mode". Additionally, I have discovered the importance of layout and the use of 'cards', which I had not properly utilized before.
+        </p>
+
+         <!--  SMILEY -->
+       <h3>Try hovering over the smiley :) </h3>
+
+        <svg id="smiley" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 597.81 597.81">
+      <defs>
+        <style>
+           .cls-1 {
+             fill: pink;
+           }
+
+        </style>
+      </defs>
+      <g id="head">
+        <path class="cls-1" d="M298.9,592.48A293.91,293.91,0,0,1,91.08,90.75,293.91,293.91,0,0,1,506.73,506.4,292,292,0,0,1,298.9,592.48Z" transform="translate(0 0.33)" />
+        <path d="M298.9,9.67A289,289,0,0,1,411.36,564.78,289,289,0,0,1,186.45,32.37,287.14,287.14,0,0,1,298.9,9.67m0-10C133.82-.33,0,133.49,0,298.57S133.82,597.48,298.9,597.48,597.81,463.65,597.81,298.57,464-.33,298.9-.33Z" transform="translate(0 0.33)" />
+      </g>
+      <g id="right-eye">
+        <ellipse class="cls-2" cx="219.73" cy="181.3" rx="32.17" ry="87.01" />
+      </g>
+      <g id="left-eye">
+        <ellipse class="cls-2" cx="380.13" cy="181.3" rx="32.17" ry="87.01" />
+      </g>
+      <path id="smile" class="cls-2" d="M86.73,319.1c-6-1.76-14.15,11-23.42-1.27-6.92-9,18.76-14.44,25-15.56s35.08-2,31.36,8.55-7.31,7.84-18.2,6.58C100.86,324,117.6,491.16,300,491.16c171.25,0,197.88-154.64,197.88-175.4-15.1.71-24.76.95-23.57-8.89,1.26-10.44,27.63-7.33,33.82-6.87s27.94,8,21.66,16.81c-5.27,8.39-11.4,2.49-17,.22,0,20.66-29.58,191.28-212.77,191.28S85.7,342.52,86.73,319.1Z" transform="translate(0 0.33)" />
+    </svg>
+      </div>
+    </section>
+       
+  
+    </main>
+
+
+    <footer>
+      <section>
+        <h3 class="logo">Contact</h3>
+        <ul>
+          <li>E-mail: sofi78a4@stud.kea.dk</li>
+          <li>Phone: +45 21180916</li>
+        </ul>
+      </section>
+      <section class="left">
+        <div>
+          <h3>ABOUT</h3>
+          <ul>
+            <li>Sofia S. Rokkedal</li>
+            <li>Multimediadesigner</li>
+            <li>Copenhagen School of <br> technology and design</li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>SKILLS</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Design</li>
+            <li>UI/UX</li>
+            <li>Photoshop</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
