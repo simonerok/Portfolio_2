@@ -77,9 +77,13 @@ img {
   height: auto;
   object-fit: cover;
 }
+header {
+  max-height: 100vh;
+}
 
 header img {
   opacity: 95%;
+  max-height: 100vh;
 }
 
 .header_text {

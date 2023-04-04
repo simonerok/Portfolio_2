@@ -410,7 +410,7 @@ img {
 }
 
 /* Footer */
-footer {
+/* footer {
   display: flex;
   padding: 5vh 2rem;
   align-items: top;
@@ -440,10 +440,65 @@ footer section.left {
   align-items: top;
   flex-wrap: wrap;
   justify-content: space-between;
+} */
+
+.flex {
+  text-align: center;
+  display: flex;
+  padding: 1rem;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: #ffffff;
+  margin: 0px;
+  background-color: var(--color-secondary1);
+}
+footer {
+  background-color: var(--color-secondary1);
+  color: white;
 }
 
-footer section div {
-  margin: 0px 1rem 1rem 1rem;
+footer h3 {
+  padding-block: 0.5rem;
+  font-size: 1.75rem;
+  color: white;
+}
+
+.footer_div {
+  text-align: left;
+  place-self: start;
+}
+
+.footer_div p {
+  text-align: left;
+  font-style: normal;
+}
+
+footer p {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  color: white;
+}
+
+#school {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#copyright p {
+  text-align: center;
+  padding: 1rem;
+  font-size: smaller;
+  font-style: italic;
+}
+
+#copyright {
+  background-color: var(--color-secondary1);
+}
+
+.svg_linkedIn img {
+  max-width: 4rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -517,12 +572,62 @@ footer section div {
     min-height: 40vh;
   }
 
-  footer {
+  /* FOOTER */
+  /*  footer {
     display: grid;
   }
 
   footer section.left {
     display: grid;
+  } */
+
+  .flex {
+    margin: 0px;
+    display: grid;
+  }
+
+  footer {
+    background-color: var(--color-secondary1);
+  }
+
+  .footer_div {
+    padding-block: 1rem;
+    text-align: left;
+    display: grid;
+    place-content: center;
+  }
+
+  .footerp {
+    padding-block: 10px;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  footer h3 {
+    padding-block: 0.5rem;
+    font-size: 1.75rem;
+  }
+
+  footer .svg_linkedIn {
+    display: grid;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+  }
+
+  .footerp {
+    padding-block: 10px;
+    font-style: italic;
+  }
+
+  .contact_text {
+    font-style: normal;
+  }
+
+  .svg_linkedIn img {
+    max-width: 3rem;
   }
 }
 
